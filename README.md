@@ -3,7 +3,9 @@
 A new Flutter project.
 
 ## Getting Started
-
+Muhammed Refaat Metwally 
+No Partners (Solo)
+Did the whole app with no Social Media OAuth because i got some bugs from Java Home Could not solve it 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
