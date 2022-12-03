@@ -63,7 +63,7 @@ class RegisterProvider extends ChangeNotifier{
     "password":password,
     "age":"28",
     "gender":"male",
-      "name":name,
+     "name":name,
     });
 
     dynamic json=jsonDecode(response.body);

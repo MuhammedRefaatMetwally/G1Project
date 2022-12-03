@@ -93,8 +93,7 @@ class TourScreen extends StatelessWidget {
             builder: (_, provider, __) => ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
-                  Datum? item =
-                  provider.tourResponseModel?.data!.data![index];
+                  Datum? item = provider.tourResponseModel?.data!.data![index];
                   return Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -155,7 +154,7 @@ class TourScreen extends StatelessWidget {
               child: GestureDetector(
                   onTap: () {},
                   child: Image.network(
-                    "${item?.image}",
+                    images[1],
                     fit: BoxFit.fill,
                   )),
             ),
